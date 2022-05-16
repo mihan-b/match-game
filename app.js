@@ -87,13 +87,13 @@ const checkCards = (e) => {
            playerLives--;
            setTimeout(() => playerLivesCount.textContent = playerLives, 500);
            if (playerLives === 0){
-            setTimeout(() => restart("Try again matha"), 2000);
+            setTimeout(() => restart("Try again"), 2000);
            }
        };
     };
     //Check for win
     if (toggleCard.length === 16) {
-        setTimeout(() => restart("Good job chubs 🎉"), 2000)
+        setTimeout(() => restart("Good job! 🎉"), 2000)
     };
 };
 
